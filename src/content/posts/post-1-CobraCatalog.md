@@ -23,3 +23,4 @@ tags: ["Class Project", "Web Design", "HTML", "CSS", "JavaScript", "Templating",
 The final **CobraCatalog** successfully demonstrated advanced proficiency in managing large-scale web structures, template-driven generation, and custom styling to merge practical, artistic, and narrative values into a seamless user experience.
 
 You can view the project repository [here](https://github.com/DarthPackman/CobraCatalog).
+And the site itself [here](cobracatalog.darthpackman.com).
