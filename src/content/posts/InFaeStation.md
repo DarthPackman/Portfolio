@@ -6,7 +6,7 @@ description: 'Developed in Unity C# for Global Game Jam 2023 under the theme "Ro
 image:
     url: 'https://img.itch.zone/aW1nLzExMjk2MTk3LnBuZw==/original/qeoVtX.png'
     alt: 'InFaeStation'
-tags: ["Game Jam", "Global Game Jam", "Unity", "C#", "Game Design"]
+tags: ["Game Jam", "Global Game Jam", "Unity", "Csharp", "Game Design"]
 ---
 
 **InFaeStation** was developed in Unity C# for the Global Game Jam 2023 (held under the theme "Roots"). Players take on the role of a tiny "Rootling" brought to life to save its tree from an incoming bug infestation.

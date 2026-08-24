@@ -6,7 +6,7 @@ description: 'Developed in Unity as a Procedural Content Generation capstone pro
 image:
     url: 'https://img.itch.zone/aW1nLzE0MTc4Mjc1LnBuZw==/original/4QGnZk.png'
     alt: 'Dungeoneer'
-tags: ["University Project", "Unity", "Procedural Content Generation", "PCG", "Game Design", "C#"]
+tags: ["University Project", "Unity", "Procedural Content Generation", "PCG", "Game Design", "Csharp"]
 ---
 
 **Dungeoneer** was developed in Unity as a PCG capstone project alongside Gustavo Kang Shim and Zion Chong, serving as an exploration into comprehensive procedural systems. The core experience combines a 3rd-person Z-targeting dungeon crawler framework with algorithmic generation across multiple pillars, including map layouts, enemy generation, and adaptive audio.

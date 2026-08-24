@@ -6,7 +6,7 @@ description: 'Created for the Global Game Jam, Cloudy is an atmospheric puzzle p
 image:
     url: 'https://img.itch.zone/aW1nLzgwNjQ0MDEuanBn/347x500/Ntd3Fj.jpg'
     alt: 'Cloudy game banner.'
-tags: ["Game Jam", "Global Game Jam", "Platformer", "Game Design", "Unity", "C#", "Puzzle Platformer"]
+tags: ["Game Jam", "Global Game Jam", "Platformer", "Game Design", "Unity", "Csharp", "Puzzle Platformer"]
 ---
 
 **Cloudy** was developed for the **Global Game Jam** (Winter 2022) as a fast-paced puzzle platformer centered around environmental control. The core mechanic revolves around manipulating the weather in real time using mouse clicks to toggle back and forth between stormy and calm states. Each weather pattern fundamentally transforms the level geometry and hazard layouts, requiring players to constantly adapt their timing and platforming strategy to progress.
