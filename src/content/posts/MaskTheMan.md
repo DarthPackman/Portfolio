@@ -6,7 +6,7 @@ description: 'Built for Global Game Jam 2026, Mask The Man is a top-down stealth
 image:
     url: ''
     alt: 'Mask The Man cover art.'
-tags: ["Game Jam", "Global Game Jam", "Stealth", "Puzzle", "Game Design"]
+tags: ["Game Jam", "Global Game Jam", "Unreal Engine", "Stealth", "Puzzle", "Game Design"]
 ---
 
 **Mask The Man** was built for **Global Game Jam 2026**, a top-down stealth puzzle game told from the perspective of a building's security camera network. The player guides a masked thief through a space watched by CCTV, timing movement to stay out of camera sightlines — get caught while a camera's rec light goes solid, and the run ends immediately.

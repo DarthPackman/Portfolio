@@ -2,7 +2,7 @@
 title: 'Torn Threads: Stitch Strife'
 pubDate: 2024-03-01
 author: 'DarthPackman'
-description: 'A first-person movement shooter exploring deception and redemption through a dual-aesthetic world inspired by Ender s Game.'
+description: 'A first-person movement shooter exploring deception and redemption through a dual-aesthetic world inspired by Enders Game.'
 image:
     url: 'https://img.itch.zone/aW1nLzE1NzUzMDY0LnBuZw==/original/jSiML7.png'
     alt: 'Torn Threads.'

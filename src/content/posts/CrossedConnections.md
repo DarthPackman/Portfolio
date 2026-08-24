@@ -6,7 +6,7 @@ description: 'Built for the GameDev.tv Game Jam 2026, Crossed Connections drops 
 image:
     url: 'https://img.itch.zone/aW1nLzI3NDkyMzc1LnBuZw==/original/BHsuK8.png'
     alt: 'Crossed Connections cover art.'
-tags: ["Game Jam", "GameDev.tv Jam", "Godot", "Puzzle", "Memory", "Game Design"]
+tags: ["Game Jam", "GameDev.tv Jam", "Godot", "GDScript", "Puzzle", "Memory", "Game Design"]
 ---
 
 **Crossed Connections** was built for the **GameDev.tv Game Jam 2026**, a single-player memory puzzle game set in a manufacturing plant where everything has gone wrong and it's up to the player to fix it. Rather than seeing the puzzle directly and solving it in real time, the game forces players to memorize a room's state, then act on that memory blind — deliberately working against how most puzzle games let you look and act simultaneously.

@@ -6,7 +6,7 @@ description: 'Developed for Software Architecture & Design and Software Engineer
 image:
     url: ''
     alt: 'Rising Tide logo.'
-tags: ["University Project", "Software Architecture", "Software Engineering", "System Design", "Database"]
+tags: ["University Project", "Software Architecture", "Software Engineering", "System Design", "Database", "MySQL"]
 ---
 
 **Rising Tide** was conceptualized during a hackathon and further developed for **COMP 2920 (Software Architecture & Design)** and **COMP 3520 (Software Engineering)**. Built around the philosophy that "A Rising Tide Raises all Ships," the project focused on architecting a platform to help the millions of small or variety streamers who struggle to average over 50 viewers by giving them data-driven insights into what games are gaining traction. Across both courses, the primary deliverable was the system's architecture and design rather than a shipped product.

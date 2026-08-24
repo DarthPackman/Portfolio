@@ -6,7 +6,7 @@ description: 'Built in Godot over the month of Artfight 2025, ArtFight2025 is an
 image:
     url: 'https://img.itch.zone/aW1nLzIxOTk3MDU1LnBuZw==/original/48DgCu.png'
     alt: 'ArtFight2025 cover art.'
-tags: ["Godot", "Pixel Art", "Infinite Runner", "Artfight", "Game Design"]
+tags: tags: ["Godot", "GDScript", "Pixel Art", "Infinite Runner", "Artfight", "Game Design"]
 ---
 
 **ArtFight2025** was built in Godot as an infinite runner starring pixel-art run cycles originally created as attacks for the annual art challenge Artfight. Rather than let a month's worth of run-cycle animations sit as standalone art pieces, the idea was to give them a shared home — an endless runner where each unlocked character represents an actual Artfight attack.

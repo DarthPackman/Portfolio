@@ -6,7 +6,7 @@ description: 'Built in Godot for Brackeys Game Jam 2026.1 and Godot Wild Jam #90
 image:
     url: ''
     alt: 'Roadtrip Through SpaceTime cover art.'
-tags: ["Game Jam", "Brackeys Game Jam", "Godot Wild Jam", "Godot", "Puzzle", "Game Design"]
+tags: ["Game Jam", "Brackeys Game Jam", "Godot Wild Jam", "Godot", "GDScript", "Puzzle", "Game Design"]
 ---
 
 **Roadtrip Through SpaceTime** was built in Godot as a joint submission to both **Brackeys Game Jam 2026.1** and **Godot Wild Jam #90**, developed alongside kyleelg, Westlow, and AWildSun Games. The concept takes the classic backseat car-trip game of I Spy and turns it into a playable click-and-search experience: the game feeds the player a hint, and it's up to them to spot and click the correct object among the scene's clutter.

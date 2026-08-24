@@ -6,7 +6,7 @@ description: 'Built for Doki Jam with a small team, DokiDokiDragoons is a Vampir
 image:
     url: 'https://img.itch.zone/aW1nLzIyNzYwNzM1LnBuZw==/original/lijg0Q.png'
     alt: 'DokiDokiDragoons cover art.'
-tags: ["Game Jam", "Godot", "Survivor Game", "Action", "Game Design", "Doki Jam"]
+tags: ["Game Jam", "Godot", "GDScript", "Survivor Game", "Action", "Game Design", "Doki Jam"]
 ---
 
 **DokiDokiDragoons** was built for **Doki Jam** with a small team: programming by DarthPackman, Sol (_restitutororbis), and Hyperflare; art by awildzo, Hyperflare, and DarthPackman; animation by DarthPackman and awildzo; and sound by Luca Chūba. The pitch, in the design doc's own words, was **"Vampire Survivor meets Dokibird, with chaining status effects"** — an auto-battling survivor game set in DokiVille, part of the Dokiverse, where the player's Dragoons come to Dokibird's rescue.

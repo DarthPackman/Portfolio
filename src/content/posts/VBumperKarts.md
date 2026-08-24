@@ -6,7 +6,7 @@ description: 'Built for VJam, VBumper Karts is a bumper-kart racing game centere
 image:
     url: 'https://img.itch.zone/aW1nLzI1NTA4MDE3LnBuZw==/original/ssehDc.png'
     alt: 'VBumper Karts cover art.'
-tags: ["Game Jam", "VJam", "Racing", "Game Design"]
+tags: ["Game Jam", "VJam", "Unreal Engine", "Racing", "Game Design"]
 ---
 
 **VBumper Karts** was built for **VJam**, a kart-racing game built around a tight risk/reward combat loop layered on top of standard driving. Movement uses WASD with a jump, but the game's identity comes from its two combat inputs: right-click to boost into an aggressive charge, and left-click to parry an incoming boost from another kart.

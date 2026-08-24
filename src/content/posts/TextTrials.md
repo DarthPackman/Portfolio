@@ -6,7 +6,7 @@ description: 'Developed for COMP 3140 (Object Oriented Design and Programming), 
 image:
     url: ''
     alt: 'Text Trials gameplay transcript.'
-tags: ["University Project", "Object Oriented Design", "C++", "Autobattler", "State Machine", "Game Design"]
+tags: ["University Project", "Object Oriented Design", "Cplusplus", "Autobattler", "State Machine", "Game Design"]
 ---
 
 **Text Trials** was developed for **COMP 3140 (Object Oriented Design and Programming)** as a text-based, dungeon-crawling autobattler, drawing inspiration from games like Team Fight Tactics and Super Auto Pets. Players create a character, choose a class-defining "adventurer type," pick their starting weapon and armor, then descend through a series of dungeon rooms fighting enemies, leveling up, and looting new gear along the way — culminating in a final boss fight after ten rounds.
