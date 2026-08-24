@@ -1,6 +1,6 @@
 ---
-title: 'InFaeStation'
-pubDate: 2024-02-04
+title: 'InFaeStation: Top Down Beat Em Up'
+pubDate: 2023-02-04
 author: 'DarthPackman'
 description: 'Developed in Unity C# for Global Game Jam 2023 under the theme "Roots", InFaeStation is a top-down action game where players control a tiny Rootling collecting leaves, dodging with dashes, and using a swing mechanic to fight bugs and parry projectiles.'
 image:
@@ -21,4 +21,4 @@ tags: ["Game Jam", "Global Game Jam", "Unity", "Csharp", "Game Design"]
 
 InFaeStation successfully blends arcade-style action mechanics with the jam's organic theme, resulting in an engaging, fast-paced indie prototype.
 
-You can download and play the game [here] (https://darthpackman.itch.io/infaestation).
+You can download and play the game [here](https://darthpackman.itch.io/infaestation).

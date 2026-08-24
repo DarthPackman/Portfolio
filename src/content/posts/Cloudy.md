@@ -2,19 +2,19 @@
 title: 'Cloudy: Weather-Manipulating Platformer'
 pubDate: 2022-02-06
 author: 'DarthPackman'
-description: 'Created for the Global Game Jam, Cloudy is an atmospheric puzzle platformer where players dynamically shift between stormy and calm weather states to alter platform layouts and navigate challenging environments.'
+description: 'Created for the Global Game Jam, Cloudy follows a scientist chasing down their own runaway weather machine, using mouse clicks to toggle between stormy and calm states and reshape the level as they climb.'
 image:
-    url: 'https://img.itch.zone/aW1nLzgwNjQ0MDEuanBn/347x500/Ntd3Fj.jpg'
+    url: 'https://img.itch.zone/aW1nLzgwNjQ0MDEuanBn/original/qSUE8z.jpg'
     alt: 'Cloudy game banner.'
-tags: ["Game Jam", "Global Game Jam", "Platformer", "Game Design", "Unity", "Csharp", "Puzzle Platformer"]
+tags: ["Game Jam", "Global Game Jam", "Platformer", "Atmospheric", "Game Design", "Unity", "Csharp"]
 ---
 
-**Cloudy** was developed for the **Global Game Jam** (Winter 2022) as a fast-paced puzzle platformer centered around environmental control. The core mechanic revolves around manipulating the weather in real time using mouse clicks to toggle back and forth between stormy and calm states. Each weather pattern fundamentally transforms the level geometry and hazard layouts, requiring players to constantly adapt their timing and platforming strategy to progress.
+**Cloudy** was developed for the **Global Game Jam** (Winter 2022) as a fast-paced atmospheric platformer. After losing control of their brand-new weather machine, the player's scientist protagonist must chase it down by climbing the skies, using the machine's remaining prototype functions to manipulate the local weather along the way.
 
 ## Core Technical & Design Elements
 
-1. **Dynamic Weather-State Switching**: Designed an interactive mechanics loop allowing players to instantly flip environmental states on the fly, directly altering active platforms, hazards, and movement physics.
-2. **Puzzle Platformer Level Design**: Crafted tightly integrated puzzle challenges where navigation depends entirely on utilizing both weather phases to open paths, clear obstacles, and reach the goal.
+1. **Dynamic Weather-State Switching**: Designed an interactive mechanic allowing players to toggle between stormy and calm weather states via mouse click, directly altering active platforms, hazards, and movement physics in real time.
+2. **Platformer Level Design**: Crafted levels where vertical progression depends on reading and reacting to both weather phases to open paths, clear obstacles, and keep climbing.
 3. **Game Jam Rapid Prototyping**: Conceptualized, built, and polished under strict game jam time constraints, balancing core player feedback loops and responsive controls.
 
 ## Final Result
