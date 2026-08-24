@@ -5,7 +5,7 @@ author: 'DarthPackman'
 description: 'Developed for COMP 3540 (Advanced Web Design & Programming), The Tea is an anonymous web forum where users can share localized posts based on geographic coordinates, featuring CRUD operations and dynamic vote scoring.'
 image:
     url: '/thetea.webp'
-    alt: 'The Tea landing page, "Let\'s Spill The Tea" in pink.'
+    alt: 'The Tea landing page, "Lets Spill The Tea"'
 tags: ["University Project", "Web Development", "PHP", "MySQL", "Geolocation"]
 ---
 
