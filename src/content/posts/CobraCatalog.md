@@ -11,7 +11,7 @@ tags: ["Class Project", "Web Design", "HTML", "CSS", "JavaScript", "Templating",
 
 **CobraCatalog** was developed alongside co-creator Matthew Noel for the **COMP 2680 (Web Site Design & Development)** course to create a comprehensive, navigable hub for Cobramode miniatures. The core motivation was to bridge a gap found across other platforms: **intertwining the high-quality 3D model visuals with their underlying narrative lore** from the CobraCompendium. Because of a Merchant License held for these models, the project required an efficient, large-scale architecture scaling to approximately 146 distinct HTML pages.
 
-## Core Technical Implementation
+## Core Technical & Design Elements
 
 1. **Large-Scale Content Templating**: Successfully developed a system using **HTML templates** (for months and individual items) to efficiently generate and manage the extensive project scope of **around 120 item pages** and **20 month pages**. This process ensured structural consistency across all 146 documents.
 2. **Interactive Elements with JavaScript**: Implemented custom **JavaScript** logic to drive a rotating highlight/slideshow gallery on the homepage alongside a dynamic countdown timer counting down the time left to grab active monthly releases.
