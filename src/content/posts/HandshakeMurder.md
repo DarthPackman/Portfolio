@@ -3,9 +3,6 @@ title: 'Handshake Murder: Mobile Deduction Game'
 pubDate: 2022-04-15
 author: 'DarthPackman'
 description: 'Developed as part of a Mobile App Development course, Handshake Murder is an interactive mobile deduction game that challenges players to uncover hidden roles and execute stealthy eliminations.'
-image:
-    url: ''
-    alt: 'Handshake Murder game banner.'
 tags: ["University Project", "Mobile App Development", "Android", "Deduction", "Game Design", "Java"]
 ---
 
