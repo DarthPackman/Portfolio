@@ -3,7 +3,10 @@ title: 'Manhunt: Mobile Pursuit Game'
 pubDate: 2022-12-15
 author: 'DarthPackman'
 description: 'Developed as part of a Mobile App Development course, Manhunt is an interactive mobile pursuit game that emphasizes advanced mobile architecture, real-time tracking, and dynamic gameplay.'
-tags: ["University Project", "Mobile App Development", "Android", "Real-Time", "Game Design", "Java"]
+image:
+    url: ''
+    alt: 'Manhunt game banner.'
+tags: ["University Project", "Mobile App Development", "Android", "Real-Time", "Game Design", "Kotlin"]
 ---
 
 **Manhunt** was developed for a mobile application development course as an exploration into advanced mobile architecture, real-time tracking, and interactive pursuit mechanics. The core experience challenges players to navigate spatial tracking and dynamic movement using mobile input interfaces to manage active chase scenarios.

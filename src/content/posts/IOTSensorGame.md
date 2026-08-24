@@ -3,6 +3,9 @@ title: 'Cooperative IoT Sensor Game'
 pubDate: 2024-11-24
 author: 'DarthPackman'
 description: 'Developed as a COMP4980 project at Thompson Rivers University alongside Braden Wielgoz, the Cooperative IoT Sensor Game is a two-player cooperative experience inspired by Keep Talking and Nobody Explodes, utilizing an Arduino MKR WiFi 1010 and MKR IoT Carrier to run modular mini-games linked to a cloud database.'
+image:
+    url: ''
+    alt: 'Cooperative IoT Sensor Game'
 tags: ["University Project", "IoT", "Arduino", "Game Design", "C++"]
 ---
 
