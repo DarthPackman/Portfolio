@@ -7,9 +7,12 @@ const identity = {
   lastName: "Edwards",
   handle: "DarthPackman",
   country: "Canada",
-  occupation: "Student & Service Desk Analyst",
+  occupation: "Service Desk Analyst",
+  education: "B.Sc. in Computer Science, Graduated with Distinction (3.89 GPA), Technical Theatre Certificate",
   hobbies: 
-  ["Video Games", 
+  ["Game Development",
+  "Streaming & Content Creation",
+  "Video Games", 
   "Board Games", 
   "War Games", 
   "Trading Card Games", 
@@ -21,23 +24,37 @@ const skills =
 "CSS", 
 "JavaScript", 
 "C#", 
-"Python",
-"Astro", 
+"C++",
 "C",
+"Java",
+"Python",
+"PHP",
+"GDScript",
+"Astro",
+"React",
+"Unity",
+"Godot",
+"Unreal Engine",
+"MySQL",
+"Firebase",
+"Arduino",
+"Figma",
 "MARIE"];
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-    <h2>And my new Astro Site!</h2>
-    <p>Currently working through the astro tutorial for a blog site.</p>
-    <p>Its connected to Github and Netlify so it updates automatically.</p>
+    <h2>About Me</h2>
+    <p>I'm a Computer Science graduate and indie game developer based in {identity.country}, working across game development, web development, and hardware/IoT projects — from university coursework and capstones to game jams and ongoing personal projects.</p>
+    <p>This site is connected to GitHub and Netlify, so it updates automatically.</p>
     <p>Here are a few facts about me:</p>
     <ul>
         <li>My name is {identity.firstName}.</li>
         <li>I live in {identity.country} and I work as a {identity.occupation}.</li>
-        {identity.hobbies.length >= 2 &&
-            <li>Two of my hobbies are: {identity.hobbies[0]} and {identity.hobbies[1]}</li>
-        }
+        <li>I hold a {identity.education}.</li>
+    </ul>
+    <ul>
+        <p>My hobbies are:</p>
+        {identity.hobbies.map((hobby) => <li class="hobby">{hobby}</li>)}
     </ul>
     <ul>
         <p>My skills are:</p>
