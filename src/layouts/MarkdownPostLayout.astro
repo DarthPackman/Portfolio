@@ -8,7 +8,7 @@ const { frontmatter } = Astro.props;
   <p transition:animate={fade({ duration: '2s' })} ><em>{frontmatter.description}</em></p>
   <p>Written by: <a href="/about/">{frontmatter.author}</a></p>
 
-  <img src={frontmatter.image.url} width="300" alt={frontmatter.image.alt} />
+  <img class="banner" src={frontmatter.image.url || '/DarthPackmanBanner.webp'} alt={frontmatter.image.url ? frontmatter.image.alt : 'DarthPackman banner'} />
 
   <div class="tags">
     {frontmatter.tags.map((tag) => (
@@ -19,6 +19,8 @@ const { frontmatter } = Astro.props;
   <slot />
 </BaseLayout>
 <style>
+  .banner { width: 100%; max-height: 22rem; object-fit: cover; border-radius: 0.75rem; }
+
   a {
     color: #00539F;
   }

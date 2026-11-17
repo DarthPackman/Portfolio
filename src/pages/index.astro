@@ -1,13 +1,32 @@
 ---
+import { getCollection } from "astro:content";
 import BaseLayout from '../layouts/BaseLayout.astro';
+import PostCard from '../components/PostCard.astro';
 
-const pageTitle = "Home Page"
+const pageTitle = "Gavin Edwards";
+const latest = (await getCollection("posts"))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 3);
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-	<img class="circImg" src=https://i.imgur.com/aZgx3cQ.png width="300" alt="Picture of Gavin" />
-	<h2>This is my, Gavin Edwards, Personal Website as well as an active list of all my projects.</h2>
-	<p>I'm a Computer Science graduate (Graduated with Distinction, 3.89 GPA) with a Technical Theatre Certificate, working across game development, web development, and hardware/IoT projects — from university coursework and capstones to game jams and ongoing personal projects.</p>
-	<p>The About section goes into details about me personally and the Portfolio tab shows off some of the things I've done.</p>
-	<p>If you're curious about specific languages and the like, the Tags section will provide you with a more narrow and focused list of projects.</p>
+  <img class="hero" src="/DarthPackmanBanner.webp" alt="DarthPackman: Press Start" width="2560" height="423" />
+  <h2>Game developer and Computer Science graduate.</h2>
+  <p>I'm a Computer Science graduate (Graduated with Distinction, 3.89 GPA) with a Technical Theatre Certificate, working across game development, web development, and hardware/IoT projects — from university coursework and capstones to game jams and ongoing personal projects.</p>
+  <p>
+    <a class="btn" href="/portfolio">See my projects</a>
+    <a class="btn alt" href="/about">About me</a>
+  </p>
+  <h2>Latest projects</h2>
+  <div class="grid">
+    {latest.map((post) => <PostCard post={post} />)}
+  </div>
+  <p><a href="/portfolio">View all projects →</a></p>
+  <p>Looking for a specific language or engine? Browse by <a href="/tags">tag</a>.</p>
 </BaseLayout>
+<style>
+  .hero { width: 100%; height: auto; border-radius: 0.75rem; display: block; margin-bottom: 1rem; }
+  .grid { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); }
+  .btn { display: inline-block; padding: 0.6rem 1.2rem; margin-right: 0.5rem; border-radius: 999px; background: #CD4A04; color: #E4E3E2; text-decoration: none; }
+  .btn.alt { background: transparent; border: 2px solid #CD4A04; color: inherit; }
+</style>

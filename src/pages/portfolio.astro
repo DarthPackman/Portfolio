@@ -1,19 +1,19 @@
 ---
 import { getCollection } from "astro:content";
 import BaseLayout from '../layouts/BaseLayout.astro';
-import BlogPost from '../components/BlogPost.astro';
+import PostCard from '../components/PostCard.astro';
 
-const pageTitle = "My Portfolio"
-const allPosts = await getCollection("posts");
+const pageTitle = "My Portfolio";
+const posts = (await getCollection("posts")).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
 ---
-
 <BaseLayout pageTitle={pageTitle}>
-    <p>This is a list of all my projects.</p>
-    <ul>
-        {
-            allPosts.map((post) => (
-              <BlogPost url={`/posts/${post.slug}/`} title={post.data.title} />
-            ))
-          }
-    </ul>
+  <p>Games, jams, web apps and hardware projects, newest first.</p>
+  <div class="grid">
+    {posts.map((post) => <PostCard post={post} />)}
+  </div>
 </BaseLayout>
+<style>
+  .grid { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); }
+</style>

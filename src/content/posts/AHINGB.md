@@ -1,5 +1,5 @@
 ---
-title: 'An Hour Ill Never Get Back: Was It Worth It?'
+title: "An Hour I'll Never Get Back: Was It Worth It?"
 pubDate: 2026-08-01
 author: 'DarthPackman'
 description: 'A solo YouTube series applying a structured game-design critique framework to hundreds of games, evaluating each on its hook, technical craft, and whether the hour spent playing it was actually worth it.'

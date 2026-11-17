@@ -1,0 +1,45 @@
+---
+const { post } = Astro.props;
+const { title, description, pubDate, image, tags } = post.data;
+const FALLBACK = '/DarthPackmanBanner.webp';
+const src = image.url || FALLBACK;
+const alt = image.url ? image.alt : 'DarthPackman banner';
+const date = pubDate.toLocaleDateString('en-CA', { year: 'numeric', month: 'short', timeZone: 'UTC' });
+---
+<article class="card">
+  <a class="card-link" href={`/posts/${post.slug}/`}>
+    <img src={src} alt={alt} loading="lazy" class:list={[{ fallback: !image.url }]} />
+    <div class="card-body">
+      <h3>{title}</h3>
+      <p class="date">{date}</p>
+      <p class="desc">{description}</p>
+    </div>
+  </a>
+  <ul class="chips">
+    {tags.map((t) => <li><a href={`/tags/${t}`}>{t}</a></li>)}
+  </ul>
+</article>
+<style>
+  .card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #a1a1a1;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.45);
+  }
+  :global(.dark) .card { background: rgba(255, 255, 255, 0.06); }
+  .card-link { color: inherit; text-decoration: none; flex: 1; display: block; }
+  img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; background: #170F0B; }
+  img.fallback { object-fit: contain; }
+  .card-body { padding: 0.75rem 1rem 0.25rem; }
+  h3 { margin: 0 0 0.25rem; font-size: 1.1rem; }
+  .date { margin: 0; font-size: 0.85rem; opacity: 0.7; }
+  .desc { font-size: 0.9rem; margin: 0.5rem 0; }
+  .card-link:hover h3, .card-link:focus-visible h3 { text-decoration: underline; }
+  .chips { list-style: none; display: flex; flex-wrap: wrap; gap: 0.35rem; padding: 0 1rem 0.9rem; margin: 0; }
+  .chips a {
+    font-size: 0.75rem; padding: 0.15rem 0.6rem; border-radius: 999px;
+    background: #CD4A04; color: #E4E3E2; text-decoration: none;
+  }
+</style>
