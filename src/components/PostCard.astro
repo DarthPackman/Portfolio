@@ -16,7 +16,7 @@ const date = pubDate.toLocaleDateString('en-CA', { year: 'numeric', month: 'shor
     </div>
   </a>
   <ul class="chips">
-    {tags.map((t) => <li><a href={`/tags/${t}`}>{t}</a></li>)}
+    {tags.map((t) => <li><a href={`/portfolio/?tag=${encodeURIComponent(t)}`}>{t}</a></li>)}
   </ul>
 </article>
 <style>

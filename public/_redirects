@@ -1,0 +1,3 @@
+/tags/*  /portfolio/?tag=:splat  301
+/tags    /portfolio/  301
+/blog    /portfolio/  301

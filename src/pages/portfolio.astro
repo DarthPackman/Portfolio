@@ -62,6 +62,6 @@ const filters = [...counts.entries()]
     };
     buttons.forEach((b) => b.addEventListener('click', () => apply(b.dataset.filter!)));
     const initial = new URLSearchParams(location.search).get('tag');
-    if (initial && [...buttons].some((b) => b.dataset.filter === initial)) apply(initial);
+    if (initial) apply(initial);
   });
 </script>
