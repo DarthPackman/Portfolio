@@ -4,7 +4,7 @@ pubDate: 2024-08-15
 author: 'DarthPackman'
 description: 'A COMP 4910 capstone project built for TRU Faculty of Law professor Matt Malone: a fully scripted, 66-page scrollable parallax website examining the decline of Canadas Access to Information Act.'
 image:
-    url: '/crisis-of-transparency-banner.png'
+    url: '/CrisisOfTransparency.webp'
     alt: 'Crisis of Transparency site screenshot.'
 tags: ["University Project", "Capstone", "Astro", "React", "Web Development", "Netlify"]
 ---
