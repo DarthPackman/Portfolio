@@ -4,7 +4,7 @@ pubDate: 2024-11-22
 author: 'DarthPackman'
 description: 'Built for COMP 3260 (Computer Network Security) alongside Hritwik Saini, this project layers behavior-based anomaly detection on top of Firebase Authentication — tracking typing, mouse, scroll, and navigation patterns to trigger a custom CAPTCHA or lock a suspicious account.'
 image:
-    url: '/Bbas.png'
+    url: '/Bbas.webp'
     alt: 'Behavioral Authentication login page.'
 tags: ["University Project", "Network Security", "Firebase", "JavaScript", "Anomaly Detection", "CAPTCHA"]
 ---

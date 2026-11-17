@@ -4,7 +4,7 @@ pubDate: 2025-03-28
 author: 'DarthPackman'
 description: 'Built for COMP 3450 (Human-Computer Interaction Design) alongside Laura Lefebvre and Seth Christopher, Leaderboarded is a social network for gamers that blends in-depth, multi-category game reviews with follows, feeds, and achievements, grounded in real user research.'
 image:
-    url: '/leaderboarded-banner.png'
+    url: '/leaderboarded.webp'
     alt: 'Leaderboarded homepage feed showing game reviews.'
 tags: ["University Project", "Human-Computer Interaction", "UX Research", "Figma", "Firebase", "Social Platform"]
 ---
