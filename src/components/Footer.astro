@@ -1,19 +1,14 @@
 ---
 import Social from './Social.astro';
 ---
-
 <style>
-    footer {
-      display: flex;
-      gap: 1rem;
-      margin-top: 2rem;
-    }
+  footer { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 2rem; padding-bottom: 1rem; }
 </style>
-
 <footer>
-  <Social platform="github" username="DarthPackman" />
-  <Social platform="twitter" username="DarthPackman" />
-  <Social platform="instagram" username="DarthPackman" />
-  <Social platform="facebook" username="DarthPackman" />
-  <Social platform="twitch" username="DarthPackman" />
+  <Social label="GitHub" url="https://github.com/DarthPackman" />
+  <Social label="itch.io" url="https://darthpackman.itch.io/" />
+  <Social label="Twitch" url="https://www.twitch.tv/DarthPackman" />
+  <Social label="X" url="https://x.com/DarthPackman" />
+  <Social label="Instagram" url="https://www.instagram.com/DarthPackman" />
+  <Social label="Facebook" url="https://www.facebook.com/DarthPackman" />
 </footer>

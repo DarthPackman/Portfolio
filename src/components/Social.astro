@@ -1,13 +1,14 @@
 ---
-const { platform, username } = Astro.props;
+const { label, url } = Astro.props;
 ---
-<a href={`https://www.${platform}.com/${username}`}>{platform}</a>
+<a href={url} target="_blank" rel="noopener" aria-label={`${label} (opens in a new tab)`}>{label}</a>
 <style>
-    a {
-      padding: 0.5rem 1rem;
-      color:#E4E3E2;
-      background-color: #CD4A04;
-      text-decoration: none;
-      border-radius: 50px;
-    }
-  </style>
+  a {
+    padding: 0.5rem 1rem;
+    color: #E4E3E2;
+    background-color: #CD4A04;
+    text-decoration: none;
+    border-radius: 50px;
+  }
+  a:hover, a:focus-visible { background-color: #a83b03; }
+</style>

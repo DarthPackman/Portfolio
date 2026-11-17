@@ -6,7 +6,7 @@ const src = image.url || FALLBACK;
 const alt = image.url ? image.alt : 'DarthPackman banner';
 const date = pubDate.toLocaleDateString('en-CA', { year: 'numeric', month: 'short', timeZone: 'UTC' });
 ---
-<article class="card">
+<article class="card" data-tags={JSON.stringify(tags)}>
   <a class="card-link" href={`/posts/${post.slug}/`}>
     <img src={src} alt={alt} loading="lazy" class:list={[{ fallback: !image.url }]} />
     <div class="card-body">

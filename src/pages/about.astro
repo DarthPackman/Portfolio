@@ -8,56 +8,51 @@ const identity = {
   handle: "DarthPackman",
   country: "Canada",
   occupation: "Service Desk Analyst",
-  education: "B.Sc. in Computer Science, Graduated with Distinction (3.89 GPA), Technical Theatre Certificate",
-  hobbies: 
-  ["Game Development",
-  "Streaming & Content Creation",
-  "Video Games", 
-  "Board Games", 
-  "War Games", 
-  "Trading Card Games", 
-  "Tabletop Roleplaying Games"],
-  
+  education: "B.Sc. in Computer Science (Graduated with Distinction, 3.89 GPA) and a Technical Theatre Certificate",
+  hobbies: [
+    "Game Development",
+    "Streaming & Content Creation",
+    "Video Games",
+    "Board Games",
+    "Wargames",
+    "Trading Card Games",
+    "Tabletop Roleplaying Games",
+  ],
 };
-const skills = 
-["HTML", 
-"CSS", 
-"JavaScript", 
-"C#", 
-"C++",
-"C",
-"Java",
-"Python",
-"PHP",
-"GDScript",
-"Astro",
-"React",
-"Unity",
-"Godot",
-"Unreal Engine",
-"MySQL",
-"Firebase",
-"Arduino",
-"Figma",
-"MARIE"];
+const skillGroups = [
+  { name: "Languages", items: ["C#", "C++", "C", "Java", "Python", "PHP", "GDScript", "JavaScript", "HTML", "CSS"] },
+  { name: "Game engines", items: ["Godot", "Unreal Engine", "Unity", "GameMaker"] },
+  { name: "Web", items: ["Astro", "React", "MySQL", "Firebase"] },
+  { name: "Hardware & tools", items: ["Arduino", "Figma", "MARIE (educational assembly)"] },
+];
 ---
 
-<BaseLayout pageTitle={pageTitle}>
-    <h2>About Me</h2>
-    <p>I'm a Computer Science graduate and indie game developer based in {identity.country}, working across game development, web development, and hardware/IoT projects — from university coursework and capstones to game jams and ongoing personal projects.</p>
-    <p>This site is connected to GitHub and Netlify, so it updates automatically.</p>
-    <p>Here are a few facts about me:</p>
-    <ul>
-        <li>My name is {identity.firstName}.</li>
-        <li>I live in {identity.country} and I work as a {identity.occupation}.</li>
-        <li>I hold a {identity.education}.</li>
-    </ul>
-    <ul>
-        <p>My hobbies are:</p>
-        {identity.hobbies.map((hobby) => <li class="hobby">{hobby}</li>)}
-    </ul>
-    <ul>
-        <p>My skills are:</p>
-        {skills.map((skill) => <li class="skill">{skill}</li>)}
-    </ul>
+<BaseLayout pageTitle={pageTitle} description="About Gavin Edwards (DarthPackman): Computer Science graduate, indie game developer, streamer and community organizer based in Canada.">
+  <img class="circImg portrait" src="https://i.imgur.com/aZgx3cQ.png" width="160" alt="Portrait of Gavin Edwards" />
+  <p>I'm {identity.firstName} Edwards, also known online as {identity.handle}: an indie game developer and Computer Science graduate based in {identity.country}. I build games, web apps and hardware experiments, from capstones and coursework to game jams and ongoing personal projects.</p>
+  <p>By day I work as a {identity.occupation}. I hold a {identity.education}.</p>
+
+  <h2>Skills</h2>
+  {skillGroups.map((g) => (
+    <section class="group">
+      <h3>{g.name}</h3>
+      <ul class="pills">
+        {g.items.map((i) => <li>{i}</li>)}
+      </ul>
+    </section>
+  ))}
+
+  <h2>Outside of work</h2>
+  <ul class="pills">
+    {identity.hobbies.map((h) => <li>{h}</li>)}
+  </ul>
+
+  <h2>See the work</h2>
+  <p><a href="/portfolio">Browse the portfolio</a> or find me on <a href="https://darthpackman.itch.io/" target="_blank" rel="noopener">itch.io</a> and <a href="https://github.com/DarthPackman" target="_blank" rel="noopener">GitHub</a>.</p>
 </BaseLayout>
+<style>
+  .portrait { float: right; margin: 0 0 1rem 1rem; }
+  .group h3 { margin: 0.75rem 0 0.25rem; font-size: 1rem; }
+  .pills { list-style: none; display: flex; flex-wrap: wrap; gap: 0.4rem; padding: 0; margin: 0 0 0.5rem; }
+  .pills li { padding: 0.2rem 0.75rem; border-radius: 999px; border: 1px solid #a1a1a1; font-size: 0.9rem; }
+</style>

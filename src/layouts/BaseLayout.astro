@@ -3,7 +3,14 @@ import { ViewTransitions } from "astro:transitions";
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import '../styles/global.css';
-const { pageTitle } = Astro.props;
+const {
+  pageTitle,
+  description = "Portfolio of Gavin Edwards (DarthPackman): game development, web and hardware projects, game jams and capstones.",
+  image = "/DarthPackmanBanner.webp",
+} = Astro.props;
+const fullTitle = pageTitle === "Gavin Edwards" ? "Gavin Edwards | DarthPackman" : `${pageTitle} | DarthPackman`;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+const ogImage = new URL(image, Astro.site);
 ---
 <html lang="en">
   <head>
@@ -11,16 +18,29 @@ const { pageTitle } = Astro.props;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>{pageTitle}</title>
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="alternate" type="application/rss+xml" title="DarthPackman" href="/rss.xml" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="DarthPackman" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta name="twitter:card" content="summary_large_image" />
     <ViewTransitions />
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <Header />
     <h1 transition:animate=slide>
       {pageTitle}
     </h1>
-    <slot>
-    </slot>
+    <main id="main">
+      <slot />
+    </main>
     <Footer />
     <script>
       import "../scripts/menu.js";

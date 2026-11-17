@@ -126,3 +126,17 @@ img.circImg {
   border-radius: 50%;
 }
 
+
+/* accessibility */
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 0;
+  background: #CD4A04;
+  color: #E4E3E2;
+  padding: 0.5rem 1rem;
+  z-index: 10;
+}
+.skip-link:focus { left: 0.5rem; top: 0.5rem; }
+a:focus-visible, button:focus-visible { outline: 3px solid #CD4A04; outline-offset: 2px; }
+.hamburger { background: none; border: 0; }

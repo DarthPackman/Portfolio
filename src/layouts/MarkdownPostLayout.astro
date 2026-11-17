@@ -3,9 +3,9 @@ import BaseLayout from './BaseLayout.astro';
 import { fade } from "astro:transitions";
 const { frontmatter } = Astro.props;
 ---
-<BaseLayout pageTitle={frontmatter.title}>
+<BaseLayout pageTitle={frontmatter.title} description={frontmatter.description} image={frontmatter.image.url || undefined}>
   <p>{frontmatter.pubDate.toString().slice(0,15)}</p>
-  <p transition:animate={fade({ duration: '2s' })} ><em>{frontmatter.description}</em></p>
+  <p transition:animate={fade({ duration: '300ms' })} ><em>{frontmatter.description}</em></p>
   <p>Written by: <a href="/about/">{frontmatter.author}</a></p>
 
   <img class="banner" src={frontmatter.image.url || '/DarthPackmanBanner.webp'} alt={frontmatter.image.url ? frontmatter.image.alt : 'DarthPackman banner'} />

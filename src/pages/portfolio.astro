@@ -7,13 +7,61 @@ const pageTitle = "My Portfolio";
 const posts = (await getCollection("posts")).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
+const counts = new Map();
+posts.forEach((p) => p.data.tags.forEach((t) => counts.set(t, (counts.get(t) ?? 0) + 1)));
+const filters = [...counts.entries()]
+  .filter(([, n]) => n >= 2)
+  .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
 ---
-<BaseLayout pageTitle={pageTitle}>
-  <p>Games, jams, web apps and hardware projects, newest first.</p>
+<BaseLayout pageTitle={pageTitle} description="Every project by Gavin Edwards: games, game jams, web apps, hardware and research. Filter by engine, language or type.">
+  <p>Games, jams, web apps and hardware projects, newest first. Filter by tag:</p>
+  <div class="filters" role="group" aria-label="Filter projects by tag">
+    <button type="button" class="filter active" data-filter="all" aria-pressed="true">All ({posts.length})</button>
+    {filters.map(([tag, n]) => (
+      <button type="button" class="filter" data-filter={tag} aria-pressed="false">{tag} ({n})</button>
+    ))}
+  </div>
+  <p id="count" aria-live="polite"></p>
   <div class="grid">
     {posts.map((post) => <PostCard post={post} />)}
   </div>
 </BaseLayout>
 <style>
   .grid { display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); }
+  .filters { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.5rem; }
+  .filter {
+    font: inherit; font-size: 0.85rem; cursor: pointer;
+    padding: 0.3rem 0.8rem; border-radius: 999px;
+    border: 2px solid #CD4A04; background: transparent; color: inherit;
+  }
+  .filter.active { background: #CD4A04; color: #E4E3E2; }
+  #count { font-size: 0.9rem; opacity: 0.75; min-height: 1.4em; }
 </style>
+<script>
+  document.addEventListener('astro:page-load', () => {
+    const buttons = document.querySelectorAll<HTMLButtonElement>('.filter');
+    const cards = document.querySelectorAll<HTMLElement>('.card');
+    const count = document.getElementById('count');
+    if (!buttons.length) return;
+    const apply = (tag: string) => {
+      let shown = 0;
+      cards.forEach((c) => {
+        const tags: string[] = JSON.parse(c.dataset.tags ?? '[]');
+        const show = tag === 'all' || tags.includes(tag);
+        c.hidden = !show;
+        c.style.display = show ? '' : 'none';
+        if (show) shown++;
+      });
+      buttons.forEach((b) => {
+        const on = b.dataset.filter === tag;
+        b.classList.toggle('active', on);
+        b.setAttribute('aria-pressed', String(on));
+      });
+      if (count) count.textContent = tag === 'all' ? '' : `Showing ${shown} project${shown === 1 ? '' : 's'} tagged ${tag}`;
+      history.replaceState(null, '', tag === 'all' ? location.pathname : `?tag=${encodeURIComponent(tag)}`);
+    };
+    buttons.forEach((b) => b.addEventListener('click', () => apply(b.dataset.filter!)));
+    const initial = new URLSearchParams(location.search).get('tag');
+    if (initial && [...buttons].some((b) => b.dataset.filter === initial)) apply(initial);
+  });
+</script>
