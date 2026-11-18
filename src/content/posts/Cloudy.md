@@ -2,7 +2,7 @@
 title: 'Cloudy: Weather-Manipulating Platformer'
 pubDate: 2022-02-06
 author: 'DarthPackman'
-role: 'Everything except the art'
+role: 'Everything except the art, including the stormy/calm weather-switch mechanic and the platforming levels.'
 video: '/clips/cloudy.mp4'
 description: 'Created for the Global Game Jam, Cloudy follows a scientist chasing down their own runaway weather machine, using mouse clicks to toggle between stormy and calm states and reshape the level as they climb.'
 image:

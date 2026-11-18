@@ -2,7 +2,7 @@
 title: 'Wardrobe Malfunction: A Frantic Backstage Costume Game'
 pubDate: 2026-08-29
 author: 'DarthPackman'
-role: 'Everything except the UI and art (art by Sunny)'
+role: 'Designed and programmed the motif scoring, audience expectations, flop timer and boutique progression. Art by Sunny; UI by teammates.'
 video: '/clips/wardrobe-malfunction.mp4'
 description: 'Built in GameMaker for VJam Take 2 alongside Shroudy Software and AWildSun Games, Wardrobe Malfunction puts you in the role of a backstage costume designer with 90 seconds to dress a bare mannequin, hitting the audience expectations for CAMP, EDGE, EMO, POSH and RIZZ before the tomatoes start flying.'
 image:

@@ -2,7 +2,7 @@
 title: 'VBumper Karts: Parry-Driven Kart Combat'
 pubDate: 2026-02-15
 author: 'DarthPackman'
-role: 'Everything except the 3D models'
+role: 'Everything except the 3D models, including the kart movement and the boost and parry system.'
 video: '/clips/vbumper-karts.mp4'
 description: 'Built for VJam, VBumper Karts is a bumper-kart racing game centered on a boost-and-parry duel: charge in with a boost, or time a parry to counter an opponent charging you.'
 image:

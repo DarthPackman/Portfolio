@@ -2,7 +2,7 @@
 title: 'Roadtrip Through SpaceTime'
 pubDate: 2026-02-01
 author: 'DarthPackman'
-role: 'Everything except the art'
+role: 'Everything except the art, including the hint-and-click search system.'
 video: '/clips/roadtrip-through-spacetime.mp4'
 description: 'Built in Godot for Brackeys Game Jam 2026.1 and Godot Wild Jam #90 alongside kyleelg, Westlow, and AWildSun Games, Roadtrip Through SpaceTime reimagines childhood car-trip I Spy as a click-the-object game, using hints to guide players to the right target.'
 image:

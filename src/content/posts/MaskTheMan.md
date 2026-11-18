@@ -2,7 +2,7 @@
 title: 'Mask The Man: A Security Camera Stealth Puzzle'
 pubDate: 2026-01-25
 author: 'DarthPackman'
-role: 'Solo project'
+role: 'Solo: click-to-move stealth, camera sightline detection, the CCTV look and multi-level progression.'
 video: '/clips/mask-the-man.mp4'
 description: 'Built for Global Game Jam 2026, Mask The Man is a top-down stealth game where you guide a masked thief past a network of security cameras — get caught in a solid rec-light beam, and it is game over.'
 image:

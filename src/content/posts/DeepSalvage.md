@@ -2,7 +2,7 @@
 title: 'Deep Salvage: An Underwater Scavenging Dive'
 pubDate: 2025-01-26
 author: 'DarthPackman'
-role: 'Everything except set dressing (by Sunny); built with Synty assets'
+role: 'Swimming, fish hazards and the air system, built with Synty assets. Set dressing by Sunny.'
 video: '/clips/deep-salvage.mp4'
 description: 'A Unity project made for Global Game Jam 2025, Deep Salvage sends players diving for ship wreckage, dodging fish, and managing a depleting air tank to push deeper before they have to resurface.'
 image:
