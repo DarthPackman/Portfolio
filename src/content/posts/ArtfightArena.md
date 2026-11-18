@@ -31,4 +31,4 @@ Rather than a single jam-length sprint, Artfight Arena was built and shared in p
 Artfight Arena successfully turns a month's worth of collaborative Artfight art into a genuinely playable turn-based fighter, sustained by daily development and shaped in part by direct community input on its growing roster.
 
 You can play the game [here](https://darthpackman.itch.io/artfight-arena), and follow the dev diary series on TikTok starting [here](https://www.tiktok.com/@darthpackman/video/7652380422344690952).
-You can also watch my development process [here] (https://www.youtube.com/playlist?list=PLdfqEgV6JXmQ).
+You can also watch my development process [here](https://www.youtube.com/playlist?list=PLdfqEgV6JXmQ).
