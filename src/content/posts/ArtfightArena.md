@@ -2,6 +2,7 @@
 title: 'Artfight Arena: A Turn-Based Artfight Fighter'
 pubDate: 2026-07-01
 author: 'DarthPackman'
+video: '/clips/artfight-arena.mp4'
 description: 'Built with AWildSun Games and Westlow for the 2026 Artfight Game, Artfight Arena is a turn-based, Pokemon-style fighting game starring each creators own Artfight attack characters, developed and updated daily throughout the event.'
 image:
     url: 'https://img.itch.zone/aW1nLzI4NjU2NTU5LnBuZw==/original/T7GBwi.png'

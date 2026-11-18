@@ -2,6 +2,7 @@
 title: 'Dungeoneer: Procedural Content Generation Capstone'
 pubDate: 2023-12-04
 author: 'DarthPackman'
+video: '/clips/dungeoneer.mp4'
 description: 'Developed in Unity as a Procedural Content Generation capstone project, Dungeoneer is a 3rd-person Z-targeting dungeon crawler featuring runtime and baked PCG systems for map layouts, dynamic enemy generation, and adaptive music.'
 image:
     url: 'https://img.itch.zone/aW1nLzE0MTc4Mjc1LnBuZw==/original/4QGnZk.png'

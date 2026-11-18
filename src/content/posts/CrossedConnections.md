@@ -2,6 +2,7 @@
 title: 'Crossed Connections: A Memory-Based Repair Puzzle'
 pubDate: 2026-06-01
 author: 'DarthPackman'
+video: '/clips/crossed-connections.mp4'
 description: 'Built for the GameDev.tv Game Jam 2026, Crossed Connections drops you in a manufacturing plant gone wrong, forcing you to memorize a broken room through a small window before working blind on a shared desk of levers, dials, and cables to fix it.'
 image:
     url: 'https://img.itch.zone/aW1nLzI3NDkyMzc1LnBuZw==/original/BHsuK8.png'

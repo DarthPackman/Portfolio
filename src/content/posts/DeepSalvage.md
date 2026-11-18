@@ -2,6 +2,7 @@
 title: 'Deep Salvage: An Underwater Scavenging Dive'
 pubDate: 2025-01-26
 author: 'DarthPackman'
+video: '/clips/deep-salvage.mp4'
 description: 'A Unity project made for Global Game Jam 2025, Deep Salvage sends players diving for ship wreckage, dodging fish, and managing a depleting air tank to push deeper before they have to resurface.'
 image:
     url: 'https://img.itch.zone/aW1nLzIyMDU1NzU5LnBuZw==/original/yDZ6U9.png'

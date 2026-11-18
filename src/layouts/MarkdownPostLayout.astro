@@ -10,6 +10,10 @@ const { frontmatter } = Astro.props;
 
   <img class="banner" src={frontmatter.image.url || '/DarthPackmanBanner.webp'} alt={frontmatter.image.url ? frontmatter.image.alt : 'DarthPackman banner'} />
 
+  {frontmatter.video && (
+    <video class="clip" src={frontmatter.video} controls muted loop playsinline preload="metadata" aria-label={"Gameplay clip of " + frontmatter.title}></video>
+  )}
+
   <div class="tags">
     {frontmatter.tags.map((tag) => (
       <p class="tag"><a href={`/portfolio/?tag=${encodeURIComponent(tag)}`}>{tag}</a></p>
@@ -24,6 +28,7 @@ const { frontmatter } = Astro.props;
 </style>
 <style>
   :global(main) { max-width: 52rem; }
+  .clip { width: 100%; aspect-ratio: 16 / 9; border-radius: 0.75rem; margin-top: 0.75rem; background: #000; }
   .banner { width: 100%; max-height: 22rem; object-fit: cover; border-radius: 0.75rem; }
 
   a {
