@@ -2,6 +2,7 @@
 title: 'ArtFight2025: An Infinite Runner of My Artfight Attacks'
 pubDate: 2025-08-01
 author: 'DarthPackman'
+role: 'Solo project'
 video: '/clips/artfight-2025.mp4'
 description: 'Built in Godot over the month of Artfight 2025, ArtFight2025 is an infinite runner starring pixel-art run cycles created as Artfight attacks, growing week by week with new characters, a leaderboard, and community-driven tuning.'
 image:

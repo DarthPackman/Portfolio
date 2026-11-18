@@ -2,6 +2,7 @@
 title: 'DokiDokiDragoons: A Doki-Themed Survivor Game'
 pubDate: 2025-08-16
 author: 'DarthPackman'
+role: 'Programming'
 video: '/clips/doki-doki-dragoons.mp4'
 description: 'Built for Doki Jam with a small team, DokiDokiDragoons is a Vampire Survivors-style action game set in the Dokiverse, built around a sequenced item-order weapon system and a designed (if not fully realized) chain-reaction evolution system.'
 image:

@@ -2,6 +2,7 @@
 title: 'Torn Threads: Stitch Strife'
 pubDate: 2024-03-01
 author: 'DarthPackman'
+role: 'Enemies and the firing range'
 video: '/clips/torn-threads.mp4'
 description: 'A first-person movement shooter exploring deception and redemption through a dual-aesthetic world inspired by Enders Game.'
 image:

@@ -2,6 +2,7 @@
 title: 'Deep Salvage: An Underwater Scavenging Dive'
 pubDate: 2025-01-26
 author: 'DarthPackman'
+role: 'Everything except set dressing (by Sunny); built with Synty assets'
 video: '/clips/deep-salvage.mp4'
 description: 'A Unity project made for Global Game Jam 2025, Deep Salvage sends players diving for ship wreckage, dodging fish, and managing a depleting air tank to push deeper before they have to resurface.'
 image:
@@ -20,7 +21,7 @@ The risk/reward tension comes from balancing depth against air: going deeper mea
 
 1. **Underwater Movement & Hazard Avoidance**: Built swimming movement and fish-dodging mechanics suited to an open underwater space rather than a traditional platformer or on-rails setup.
 2. **Air Management System**: Implemented a depleting air resource that gates how long a player can stay at depth, with refill points that shape the pacing of each dive.
-3. **Jam-Scoped Solo Development**: Designed, built, and polished entirely solo within Global Game Jam's tight time constraints.
+3. **Jam-Scoped Development**: Designed, built, and polished within Global Game Jam's tight time constraints, using Synty asset packs, with set dressing by Sunny.
 
 ## Final Result
 
