@@ -6,7 +6,7 @@ description: 'Built with AWildSun Games and Westlow for the 2026 Artfight Game, 
 image:
     url: 'https://img.itch.zone/aW1nLzI4NjU2NTU5LnBuZw==/original/T7GBwi.png'
     alt: 'Artfight Arena cover art.'
-tags: ["Artfight", "Godot", "GDScript", "Turn-Based", "Fighting", "Pixel Art", "Game Design"]
+tags: ["Games", "Artfight", "Godot", "GDScript", "Turn-Based", "Fighting", "Pixel Art", "Game Design"]
 ---
 
 **Artfight Arena** was built for the 2026 Artfight Game alongside AWildSun Games and Westlow, a turn-based fighting game in the vein of Pokemon, where every combatant is drawn from the team's own Artfight attack characters. Each contributor's Artfight gallery effectively doubles as the game's character roster — DarthPackman's, Westlow's, and Sunny's attacks all feeding directly into playable fighters.

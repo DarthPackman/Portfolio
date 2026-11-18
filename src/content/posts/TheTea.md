@@ -6,7 +6,7 @@ description: 'Developed for COMP 3540 (Advanced Web Design & Programming), The T
 image:
     url: '/thetea.webp'
     alt: 'The Tea landing page, "Lets Spill The Tea"'
-tags: ["University Project", "Web Development", "PHP", "MySQL", "Geolocation"]
+tags: ["Web", "University Project", "Web Development", "PHP", "MySQL", "Geolocation"]
 ---
 
 **The Tea** was developed as the term project for **COMP 3540 (Advanced Web Design & Programming)**. The application serves as an anonymous web forum allowing users to "Spill The Tea" by creating, editing, and interacting with posts localized to their current geographic region via browser GPS permissions.

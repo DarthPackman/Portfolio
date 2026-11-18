@@ -6,7 +6,7 @@ description: 'A solo YouTube series applying a structured game-design critique f
 image:
     url: ''
     alt: 'An Hour I''ll Never Get Back cover art.'
-tags: ["YouTube", "Game Criticism", "Game Design", "Content Creation"]
+tags: ["Content", "YouTube", "Game Criticism", "Game Design", "Content Creation"]
 ---
 
 **An Hour I'll Never Get Back: Was It Worth It?** is a solo YouTube series that puts games through a structured, hour-long design critique rather than a casual review. Framed around a CS degree and a game designer's eye, each episode spends 60 minutes with a game and comes out the other side with a verdict: Definitely Worth It, Maybe Worth It, Not Worth It, or Never Worth It.

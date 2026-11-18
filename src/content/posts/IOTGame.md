@@ -6,7 +6,7 @@ description: 'Developed as a COMP4980 project at Thompson Rivers University alon
 image:
     url: ''
     alt: 'Cooperative IoT Sensor Game'
-tags: ["University Project", "IoT", "Arduino", "Game Design", "Cplusplus"]
+tags: ["Games", "Hardware / IoT", "University Project", "IoT", "Arduino", "Game Design", "Cplusplus"]
 ---
 
 **Cooperative IoT Sensor Game** was developed for COMP4980 at Thompson Rivers University alongside Braden Wielgoz. Inspired by titles like Keep Talking and Nobody Explodes and Bop It, the project combines physical hardware interaction with cooperative communication. One player operates an IoT device featuring buttons, LEDs, and an LCD screen, while the second player uses an instruction manual to decode information and guide their partner through various challenges.

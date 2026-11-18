@@ -6,7 +6,7 @@ description: 'Created for the Global Game Jam, Cloudy follows a scientist chasin
 image:
     url: 'https://img.itch.zone/aW1nLzgwNjQ0MDEuanBn/original/qSUE8z.jpg'
     alt: 'Cloudy game banner.'
-tags: ["Game Jam", "Global Game Jam", "Platformer", "Atmospheric", "Game Design", "Unity", "Csharp"]
+tags: ["Games", "Game Jam", "Global Game Jam", "Platformer", "Atmospheric", "Game Design", "Unity", "Csharp"]
 ---
 
 **Cloudy** was developed for the **Global Game Jam** (Winter 2022) as a fast-paced atmospheric platformer. After losing control of their brand-new weather machine, the player's scientist protagonist must chase it down by climbing the skies, using the machine's remaining prototype functions to manipulate the local weather along the way.

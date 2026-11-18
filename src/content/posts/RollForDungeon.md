@@ -6,7 +6,7 @@ description: 'Developed for a Procedural Content Generation course, Roll For Dun
 image:
     url: 'https://img.itch.zone/aW1nLzIyMDU1OTM3LnBuZw==/original/1bfIl7.png'
     alt: 'Roll For Dungeon Cover.'
-tags: ["University Project", "Procedural Content Generation", "PCG", "Tabletop", "D&D 5e", "Game Design"]
+tags: ["Games", "University Project", "Procedural Content Generation", "Tabletop", "D&D 5e", "Game Design"]
 ---
 
 **Roll For Dungeon: The Crypt of the Frozen Tides** was developed for an advanced procedural content generation course as a physical, printable take on PCG: a dice-driven D&D 5th Edition dungeon crawl. Rather than generating content in code, the "algorithm" runs at the table — the Dungeon Master rolls a d12 to pick from 12 base rooms, then a d8 for each of three connecting pathways, before rolling into one of 12 themed boss rooms to close out the run. Between the room and pathway variations, the system supports nearly three million possible dungeon layouts.

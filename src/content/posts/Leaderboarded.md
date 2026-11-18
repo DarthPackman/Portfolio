@@ -6,7 +6,7 @@ description: 'Built for COMP 3450 (Human-Computer Interaction Design) alongside 
 image:
     url: '/leaderboarded.webp'
     alt: 'Leaderboarded homepage feed showing game reviews.'
-tags: ["University Project", "Human-Computer Interaction", "UX Research", "Figma", "Firebase", "Social Platform"]
+tags: ["Web", "University Project", "Human-Computer Interaction", "UX Research", "Figma", "Firebase", "Social Platform"]
 ---
 
 **Leaderboarded** was developed for **COMP 3450 (Human-Computer Interaction Design)** alongside Laura Lefebvre and Seth Christopher, pitched as a social network for gamers to review, discover, and connect over games. The core problem it set out to solve: existing review platforms either lean on disconnected professional critic scores (Metacritic, IGN) or oversimplify community feedback into a binary thumbs up/down (Steam), while offering little social interaction around the reviews themselves.

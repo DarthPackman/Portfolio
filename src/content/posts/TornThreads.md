@@ -6,7 +6,7 @@ description: 'A first-person movement shooter exploring deception and redemption
 image:
     url: 'https://img.itch.zone/aW1nLzE1NzUzMDY0LnBuZw==/original/jSiML7.png'
     alt: 'Torn Threads.'
-tags: ["Unity", "Csharp", "Game Design", "Class Project", "FPS"]
+tags: ["Games", "Unity", "Csharp", "Game Design", "University Project", "FPS"]
 ---
 
 **Torn Threads** is a high-mobility first-person movement shooter developed as a university game design project, alongside teammates Laura, Angelo, Vasu, and Alex. The game serves as a homage to *Ender s Game*, blending fast-paced, fluid movement mechanics with a dramatic narrative twist.

@@ -6,7 +6,7 @@ description: 'A COMP 4910 capstone project built for TRU Faculty of Law professo
 image:
     url: '/CrisisOfTransparency.webp'
     alt: 'Crisis of Transparency site screenshot.'
-tags: ["University Project", "Capstone", "Astro", "React", "Web Development", "Netlify"]
+tags: ["Web", "University Project", "Capstone", "Astro", "React", "Web Development", "Netlify"]
 ---
 
 **Crisis of Transparency** was developed as the COMP 4910 capstone project alongside Carlos Avila and Ian Fuentes, in partnership with client Matt Malone, Assistant Professor at TRU's Faculty of Law. The brief was to turn a fully scripted research report into an interactive, cross-platform website — timed to land ahead of a proposed reform of Canada's Access to Information Act.

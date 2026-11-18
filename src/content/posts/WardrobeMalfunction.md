@@ -6,7 +6,7 @@ description: 'Built in GameMaker for VJam Take 2 alongside Shroudy Software and 
 image:
     url: '/WardrobeMalfunction.webp'
     alt: 'Wardrobe Malfunction title screen with red stage curtains and PLAY and EXIT buttons.'
-tags: ["Game Jam", "VJam", "GameMaker", "Game Design"]
+tags: ["Games", "Game Jam", "VJam", "GameMaker", "Game Design"]
 ---
 
 **Wardrobe Malfunction** was built in GameMaker for **VJam Take 2** (August 16-29, 2026) alongside [Shroudy Software](https://shroudysoftware.itch.io/) and [AWildSun Games](https://awildsun.itch.io/). It's a fast-paced dress-up game set in the chaos backstage at a theatre. The actor is due on stage in 90 seconds, and as the costume designer it's your job to get them dressed for the part.

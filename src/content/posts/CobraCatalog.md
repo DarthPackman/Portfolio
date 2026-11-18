@@ -6,7 +6,7 @@ description: 'The final project for COMP 2680, this extensive web catalog was de
 image:
     url: 'https://www.cobramode.com/wp-content/uploads/2021/07/cobramode-logo-website-big-1024x550.png'
     alt: 'Cobramode logo.'
-tags: ["Class Project", "Web Design", "HTML", "CSS", "JavaScript", "Templating", "Catalog System"]
+tags: ["Web", "University Project", "Web Design", "HTML", "CSS", "JavaScript", "Templating", "Catalog System"]
 ---
 
 **CobraCatalog** was developed alongside co-creator Matthew Noel for the **COMP 2680 (Web Site Design & Development)** course to create a comprehensive, navigable hub for Cobramode miniatures. The core motivation was to bridge a gap found across other platforms: **intertwining the high-quality 3D model visuals with their underlying narrative lore** from the CobraCompendium. Because of a Merchant License held for these models, the project required an efficient, large-scale architecture scaling to approximately 146 distinct HTML pages.

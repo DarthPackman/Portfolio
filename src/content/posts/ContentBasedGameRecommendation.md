@@ -6,7 +6,7 @@ description: 'Built for COMP 4610 (Advanced Database Systems) alongside Laura Le
 image:
     url: ''
     alt: 'Content-Based Game Recommendation cover art.'
-tags: ["University Project", "Database Systems", "Data Mining", "Python", "Recommendation Systems"]
+tags: ["Research & Data", "University Project", "Database", "Data Mining", "Python", "Recommendation Systems"]
 ---
 
 **Content-Based Game Recommendation** was built for **COMP 4610 (Advanced Database Systems)** alongside Laura Lefebvre, Ines Maria, and Pedro Costa, submitted to instructor Sukhchandan. The project set out to solve a specific problem: in an oversaturated game market, players struggle to find new titles that actually match their interests, and existing recommendation systems that lean purely on user ratings or social signals often miss the mark. The goal was a content-based system that recommends games based on their own features and relationships, rather than depending entirely on aggregated star ratings.

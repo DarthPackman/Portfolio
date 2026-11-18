@@ -1,4 +1,5 @@
 ---
+import { tagLabel } from "../scripts/tagLabel";
 const { post } = Astro.props;
 const { title, description, pubDate, image, tags } = post.data;
 const FALLBACK = '/DarthPackmanBanner.webp';
@@ -16,7 +17,7 @@ const date = pubDate.toLocaleDateString('en-CA', { year: 'numeric', month: 'shor
     </div>
   </a>
   <ul class="chips">
-    {tags.map((t) => <li><a href={`/portfolio/?tag=${encodeURIComponent(t)}`}>{t}</a></li>)}
+    {tags.slice(0, 4).map((t) => <li><a href={`/portfolio/?tag=${encodeURIComponent(t)}`}>{tagLabel(t)}</a></li>)}
   </ul>
 </article>
 <style>

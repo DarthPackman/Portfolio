@@ -6,7 +6,7 @@ description: 'A Unity project made for Global Game Jam 2025, Deep Salvage sends 
 image:
     url: 'https://img.itch.zone/aW1nLzIyMDU1NzU5LnBuZw==/original/yDZ6U9.png'
     alt: 'Deep Salvage cover art.'
-tags: ["Game Jam", "Global Game Jam", "Unity", "Csharp", "Underwater", "Adventure", "Game Design"]
+tags: ["Games", "Game Jam", "Global Game Jam", "Unity", "Csharp", "Underwater", "Adventure", "Game Design"]
 ---
 
 **Deep Salvage** was built for **Global Game Jam 2025** in Unity. Players dive into open water to collect scattered ship parts, weaving around fish while keeping an eye on a depleting air supply — refilling at intervals to buy enough time to push further down and reach the more valuable wreckage below.

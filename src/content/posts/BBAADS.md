@@ -6,7 +6,7 @@ description: 'Built for COMP 3260 (Computer Network Security) alongside Hritwik 
 image:
     url: '/Bbas.webp'
     alt: 'Behavioral Authentication login page.'
-tags: ["University Project", "Network Security", "Firebase", "JavaScript", "Anomaly Detection", "CAPTCHA"]
+tags: ["Research & Data", "University Project", "Network Security", "Firebase", "JavaScript", "Anomaly Detection", "CAPTCHA"]
 ---
 
 **Behavioral Authentication & Anomaly Detection System** was built for **COMP 3260 (Computer Network Security)** alongside Hritwik Saini, under instructor Anthony Aighobahi. The project's premise: most brute-force and bot-driven login attacks move and type in ways real humans don't, so a system that quietly watches *how* someone interacts with a login page — rather than asking them to prove anything upfront — can catch malicious activity without adding friction for legitimate users.

@@ -6,7 +6,7 @@ description: 'Developed as part of a Mobile App Development course, Handshake Mu
 image:
     url: ''
     alt: 'Handshake Murder game banner.'
-tags: ["University Project", "Mobile App Development", "Android", "Deduction", "Game Design", "Java"]
+tags: ["Games", "University Project", "Mobile App Development", "Android", "Deduction", "Game Design", "Java"]
 ---
 
 **Handshake Murder** was developed for **COMP 2160, Mobile App Development 1** (Fall 2022) as a digital adaptation of the theatre game of the same name, and was Transhuman Games' first project. In the original party game, one player is secretly the murderer and moves through the group shaking hands — anyone they choose to "kill" during a handshake falls dead moments later, and the surviving players try to work out who's responsible before it's too late. The app's goal was to fully automate that experience: tracking roles, handling handshakes electronically, and managing voting and win conditions without anyone needing to keep score by hand.

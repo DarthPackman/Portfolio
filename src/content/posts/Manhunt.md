@@ -6,7 +6,7 @@ description: 'Developed as part of a Mobile App Development course, Manhunt is a
 image:
     url: '/Manhunt.webp'
     alt: 'Manhunt game banner.'
-tags: ["University Project", "Mobile App Development", "Android", "Real-Time", "Game Design", "Java", "Firebase", "Google Maps API"]
+tags: ["Games", "University Project", "Mobile App Development", "Android", "Real-Time", "Game Design", "Java", "Firebase", "Google Maps API"]
 ---
 
 **Manhunt** was developed for **COMP 3160, Mobile App Development 2** (Winter 2022) as a digital, location-aware reimagining of the classic outdoor game Hunter. Players join a shared lobby, are assigned the role of hunter or hunted, and use live GPS tracking to chase each other down (or evade capture) across a real-world play area.
